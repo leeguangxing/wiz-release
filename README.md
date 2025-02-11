@@ -49,7 +49,7 @@ wiz-macos-x64 git <子命令> [选项]
 
 ## 配置文件说明
 
-`.wizrc.json` 配置文件放置于 `process.cwd()` 目录下，包含 GitLab 和 Jenkins 相关的访问信息。以下是各字段的说明。
+`.wizrc.json` 配置文件可放置于 `homedir()` 或 `process.cwd()` 目录下。`process.cwd()` 目录下的配置优先级更高。建议配置文件存在 `homedir()` 即可。配置包含 GitLab 和 Jenkins 相关的访问信息。以下是各字段的说明。
 
 ### 配置字段说明
 
