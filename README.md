@@ -18,12 +18,12 @@ wiz-win-x64.exe git <子命令> [选项]
 
 Mac(M 系列):
 ```bash
-wiz-macos-arm64 git <子命令> [选项]
+./wiz-macos-arm64 git <子命令> [选项]
 ```
 
 Mac(Intel 系列):
 ```bash
-wiz-macos-x64 git <子命令> [选项]
+./wiz-macos-x64 git <子命令> [选项]
 ```
 
 <br>
